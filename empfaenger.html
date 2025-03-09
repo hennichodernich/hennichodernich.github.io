@@ -1,12 +1,24 @@
 <html>
   <body><h1>Empf&auml;nger</h1>
+    <p>Hier noch einmal die beiden Beispiele zur AM. Dieses Mal ist allerdings die sogenannte Einh&uuml;llende in rot dargestellt und nicht das Modulationssignal.</p>
+    <p><img src="AM_slow_envelope.gif"></p>
+    <p><img src="AM_fast_envelope.gif"></p>
+    <p>Der Detektorempf&auml;nger schneidet nun mit der Diode alle Anteile unter der Nulllinie ab, und der Kondensator (oder die mechanische Tr&auml;gheit des Lautsprechers) 
+      verbindet dann die Spitzen der einzelnen Halbwellen und rekonstruiert so die (obere) rote Kurve.</p>
+    <p>Nun zur SSB: Hier noch einmal die Zerlegung der AM in 3 Anteile:</p>  
     <p><img src="3AM_slow.gif"></p>
-    <p>Einer dieser 3 Zeiger ist der unmodulierte Tr&auml;ger, hier in gr&uuml;n, der sich mit 5 Umdrehungen pro Sekunde dreht. Die anderen beiden Zeiger 
-      stellen das obere Seitenband (USB) im magenta mit 5+2=7 Umdrehungen pro Sekunde und das untere Seitenband (LSB) in cyan mit 5-2=3 Umdrehungen pro 
-      Sekunde dar. Addiert man die 3 resultierenden Kurven im rechten Bild aufeinander, ergibt sich wieder die blaue Kurve. (Im linken Bild muss man die 
-      Zeiger aneinander setzen, also den Fu&szlig; des magentafarbenen an die Spitze des gr&uuml;nen und den Fu&szlig; des cyanfarbenen an die Spitze des 
-      magentafarbenen, aber das f&uuml;hrt zu weit im E-Kurs.)<br>
-    Hier noch die Version mit 20 Hz Tr&auml;gerfrequenz und den Seitenb&auml;ndern entsprechend bei 18 und 22 Hz:</p>
+    <p>Schauen wir uns hier das obere Seitenband einzeln an:</p>
+    <p><img src="USB_slow.gif"></p>
+    <p>Der Empf&auml;nger f&uuml;gt nun den am Sender entfernten Tr&auml;ger mit dem BFO wieder hinzu:</p>
+    <p><img src="USB_plus_carrier_slow.gif"></p>
+    <p>Das resultierende Summensignal kann man wie ein AM-Signal demodulieren, z.B. auch mit dem Detektorempf&auml;nger.</p>
+    <p>Der Vollst&auml;ndigkeit halber hier auch die Version mit 20 Hertz Tr&auml;gerfrequenz:</p>
+    <p><img src="3AM_fast.gif"></p>
+    <p><img src="USB_fast.gif"></p>
+    <p><img src="USB_plus_carrier_fast.gif"></p>
+    <p>F&uuml;r das untere Seitenband sieht die Einh&uuml;llende genau so aus:</p>
+    <p><img src="LSB_fast.gif"></p>
+    <p><img src="LSB_plus_carrier_fast.gif"></p>
   </body>
 </html>
 
